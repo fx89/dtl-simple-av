@@ -67,3 +67,8 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+/.idea/.gitignore
+/.idea/dtl-simple-av.iml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/vcs.xml
