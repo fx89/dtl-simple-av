@@ -1,67 +1,30 @@
 <mxfile host="Electron">
   <diagram name="Page-1" id="A6uBjO4wK6vIvszS2Rl9">
-    <mxGraphModel dx="1560" dy="1530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2321" dy="2129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="foirv7OPeBuF37K9-p0X-16" edge="1" parent="1" source="foirv7OPeBuF37K9-p0X-6" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="foirv7OPeBuF37K9-p0X-12">
+        <mxCell id="PYW14DSKQrZKEMyBlCV2-5" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=60;" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Environment&lt;/font&gt;" vertex="1">
+          <mxGeometry height="1020" width="2310" x="-720" y="-340" as="geometry" />
+        </mxCell>
+        <mxCell id="ndMvrcjmyF_4ka__tk8o-19" parent="PYW14DSKQrZKEMyBlCV2-5" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;perimeterSpacing=0;arcSize=6;" value="&lt;b&gt;Universe&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- contains 2D and 3D worlds&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="45" width="159.99" x="1010.02" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="foirv7OPeBuF37K9-p0X-11" parent="PYW14DSKQrZKEMyBlCV2-5" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;perimeterSpacing=0;arcSize=6;" value="&lt;b&gt;World&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- can be 2D or 3D&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="1030.01" y="375" as="geometry" />
+        </mxCell>
+        <mxCell id="ndMvrcjmyF_4ka__tk8o-20" edge="1" parent="PYW14DSKQrZKEMyBlCV2-5" source="ndMvrcjmyF_4ka__tk8o-19" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="foirv7OPeBuF37K9-p0X-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="foirv7OPeBuF37K9-p0X-17" connectable="0" parent="foirv7OPeBuF37K9-p0X-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="extends" vertex="1">
-          <mxGeometry relative="1" x="0.0434" y="2" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="ndMvrcjmyF_4ka__tk8o-21" connectable="0" parent="ndMvrcjmyF_4ka__tk8o-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="contains set of" vertex="1">
+          <mxGeometry relative="1" x="-0.052" as="geometry">
+            <mxPoint y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mYHWRoHKPFk9zHoXxSIQ-5" edge="1" parent="1" source="ndMvrcjmyF_4ka__tk8o-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="mYHWRoHKPFk9zHoXxSIQ-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1020" y="260" as="sourcePoint" />
-          </mxGeometry>
+        <mxCell id="ndMvrcjmyF_4ka__tk8o-7" parent="PYW14DSKQrZKEMyBlCV2-5" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;perimeterSpacing=0;arcSize=6;" value="&lt;b&gt;World effect instances manager&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- contains effects instances&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- can add and remove effect instances&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- logic loop loops through the effects and applies them&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="280" x="1400" y="360" as="geometry" />
         </mxCell>
-        <mxCell id="mYHWRoHKPFk9zHoXxSIQ-6" connectable="0" parent="mYHWRoHKPFk9zHoXxSIQ-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="contains set of&lt;div&gt;entity-bound effects&lt;/div&gt;&lt;div&gt;that act upon a pre-determined set of world entities&lt;/div&gt;&lt;div&gt;and which disappear when the world entities dissapears&lt;/div&gt;" vertex="1">
-          <mxGeometry relative="1" x="-0.1549" y="4" as="geometry">
-            <mxPoint x="1" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ndMvrcjmyF_4ka__tk8o-12" edge="1" parent="1" source="foirv7OPeBuF37K9-p0X-6" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ndMvrcjmyF_4ka__tk8o-11">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ndMvrcjmyF_4ka__tk8o-13" connectable="0" parent="ndMvrcjmyF_4ka__tk8o-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="contains" vertex="1">
-          <mxGeometry relative="1" x="-0.1121" y="1" as="geometry">
-            <mxPoint x="6" y="1" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="foirv7OPeBuF37K9-p0X-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;perimeterSpacing=0;arcSize=6;" value="&lt;b&gt;World entity&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- has properties - includes location (point), orientation (vector) and custom properties&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- has behaviors (self-effects) that change the proeprties of the world entity&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- has effects that influence other world entities by changing their properties&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="70" width="416.87" x="161.57" y="250" as="geometry" />
-        </mxCell>
-        <mxCell id="foirv7OPeBuF37K9-p0X-14" edge="1" parent="1" source="foirv7OPeBuF37K9-p0X-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="foirv7OPeBuF37K9-p0X-12">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="foirv7OPeBuF37K9-p0X-15" connectable="0" parent="foirv7OPeBuF37K9-p0X-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="extends" vertex="1">
-          <mxGeometry relative="1" x="-0.0579" y="1" as="geometry">
-            <mxPoint y="-1" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="foirv7OPeBuF37K9-p0X-19" edge="1" parent="1" source="ndMvrcjmyF_4ka__tk8o-16" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="foirv7OPeBuF37K9-p0X-6">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="420" y="150" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="foirv7OPeBuF37K9-p0X-20" connectable="0" parent="foirv7OPeBuF37K9-p0X-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="contains set of" vertex="1">
-          <mxGeometry relative="1" x="-0.1049" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mYHWRoHKPFk9zHoXxSIQ-3" edge="1" parent="1" source="ndMvrcjmyF_4ka__tk8o-7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="mYHWRoHKPFk9zHoXxSIQ-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="730" y="110" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mYHWRoHKPFk9zHoXxSIQ-4" connectable="0" parent="mYHWRoHKPFk9zHoXxSIQ-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="contains set of&lt;div&gt;global hehaviors&lt;/div&gt;&lt;div&gt;that live for as long as&lt;/div&gt;&lt;div&gt;the world exists&lt;/div&gt;" vertex="1">
-          <mxGeometry relative="1" x="-0.343" as="geometry">
-            <mxPoint x="41" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ndMvrcjmyF_4ka__tk8o-8" edge="1" parent="1" source="foirv7OPeBuF37K9-p0X-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ndMvrcjmyF_4ka__tk8o-7">
+        <mxCell id="ndMvrcjmyF_4ka__tk8o-8" edge="1" parent="PYW14DSKQrZKEMyBlCV2-5" source="foirv7OPeBuF37K9-p0X-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ndMvrcjmyF_4ka__tk8o-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ndMvrcjmyF_4ka__tk8o-9" connectable="0" parent="ndMvrcjmyF_4ka__tk8o-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="contains" vertex="1">
@@ -69,7 +32,44 @@
             <mxPoint x="-1" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ndMvrcjmyF_4ka__tk8o-17" edge="1" parent="1" source="foirv7OPeBuF37K9-p0X-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ndMvrcjmyF_4ka__tk8o-16">
+        <mxCell id="mYHWRoHKPFk9zHoXxSIQ-1" parent="PYW14DSKQrZKEMyBlCV2-5" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;perimeterSpacing=0;arcSize=6;" value="&lt;b&gt;Effect instance&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- acts upon one or more world entities&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="200" x="1880" y="375" as="geometry" />
+        </mxCell>
+        <mxCell id="mYHWRoHKPFk9zHoXxSIQ-3" edge="1" parent="PYW14DSKQrZKEMyBlCV2-5" source="ndMvrcjmyF_4ka__tk8o-7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="mYHWRoHKPFk9zHoXxSIQ-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1450" y="450" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mYHWRoHKPFk9zHoXxSIQ-4" connectable="0" parent="mYHWRoHKPFk9zHoXxSIQ-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="contains set of&lt;div&gt;global hehaviors&lt;/div&gt;&lt;div&gt;that live for as long as&lt;/div&gt;&lt;div&gt;the world exists&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.343" as="geometry">
+            <mxPoint x="41" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ndMvrcjmyF_4ka__tk8o-11" parent="PYW14DSKQrZKEMyBlCV2-5" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;perimeterSpacing=0;arcSize=6;" value="&lt;b&gt;World entity effect instances manager&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- contains effects instances&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- can add and remove effect instances&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- logic loop loops through the effects and applies them&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="280" x="1400" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="mYHWRoHKPFk9zHoXxSIQ-5" edge="1" parent="PYW14DSKQrZKEMyBlCV2-5" source="ndMvrcjmyF_4ka__tk8o-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="mYHWRoHKPFk9zHoXxSIQ-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1740" y="600" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mYHWRoHKPFk9zHoXxSIQ-6" connectable="0" parent="mYHWRoHKPFk9zHoXxSIQ-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="contains set of&lt;div&gt;entity-bound effects&lt;/div&gt;&lt;div&gt;that act upon a pre-determined set of world entities&lt;/div&gt;&lt;div&gt;and which disappear when the world entities dissapears&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1549" y="4" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ndMvrcjmyF_4ka__tk8o-14" edge="1" parent="PYW14DSKQrZKEMyBlCV2-5" source="ndMvrcjmyF_4ka__tk8o-7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ndMvrcjmyF_4ka__tk8o-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ndMvrcjmyF_4ka__tk8o-15" connectable="0" parent="ndMvrcjmyF_4ka__tk8o-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="is the same as" vertex="1">
+          <mxGeometry relative="1" x="-0.1099" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ndMvrcjmyF_4ka__tk8o-16" parent="PYW14DSKQrZKEMyBlCV2-5" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;perimeterSpacing=0;arcSize=6;" value="&lt;b&gt;World entities manager&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- contians world entities&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- logic loop loops through the entities and ticks them&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- maintains a set of references to all cameras, to make it easy to find and activate cameras&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="247.51" x="966.26" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="ndMvrcjmyF_4ka__tk8o-17" edge="1" parent="PYW14DSKQrZKEMyBlCV2-5" source="foirv7OPeBuF37K9-p0X-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ndMvrcjmyF_4ka__tk8o-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ndMvrcjmyF_4ka__tk8o-18" connectable="0" parent="ndMvrcjmyF_4ka__tk8o-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="contains" vertex="1">
@@ -77,22 +77,136 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="foirv7OPeBuF37K9-p0X-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;perimeterSpacing=0;arcSize=6;" value="&lt;b&gt;World&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- can be 2D or 3D&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="120" x="310" y="50" as="geometry" />
+        <mxCell id="foirv7OPeBuF37K9-p0X-6" parent="PYW14DSKQrZKEMyBlCV2-5" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;perimeterSpacing=0;arcSize=6;" value="&lt;b&gt;World entity&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- has properties - includes location (point), orientation (vector) and custom properties&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- has behaviors (self-effects) that change the proeprties of the world entity&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- has effects that influence other world entities by changing their properties&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="416.87" x="881.55" y="620" as="geometry" />
         </mxCell>
-        <mxCell id="foirv7OPeBuF37K9-p0X-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;perimeterSpacing=0;arcSize=6;" value="&lt;b&gt;Entity&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- has an unique id&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- has a name&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="-140" y="255" as="geometry" />
+        <mxCell id="ndMvrcjmyF_4ka__tk8o-12" edge="1" parent="PYW14DSKQrZKEMyBlCV2-5" source="foirv7OPeBuF37K9-p0X-6" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ndMvrcjmyF_4ka__tk8o-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="foirv7OPeBuF37K9-p0X-31" edge="1" parent="1" source="foirv7OPeBuF37K9-p0X-21" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="foirv7OPeBuF37K9-p0X-23">
+        <mxCell id="ndMvrcjmyF_4ka__tk8o-13" connectable="0" parent="ndMvrcjmyF_4ka__tk8o-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="contains" vertex="1">
+          <mxGeometry relative="1" x="-0.1121" y="1" as="geometry">
+            <mxPoint x="6" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="foirv7OPeBuF37K9-p0X-19" edge="1" parent="PYW14DSKQrZKEMyBlCV2-5" source="ndMvrcjmyF_4ka__tk8o-16" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="foirv7OPeBuF37K9-p0X-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1140" y="490" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="foirv7OPeBuF37K9-p0X-20" connectable="0" parent="foirv7OPeBuF37K9-p0X-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="contains set of" vertex="1">
+          <mxGeometry relative="1" x="-0.1049" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="foirv7OPeBuF37K9-p0X-12" parent="PYW14DSKQrZKEMyBlCV2-5" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;perimeterSpacing=0;arcSize=6;" value="&lt;b&gt;Entity&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- has an unique id&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- has a name&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="590" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="foirv7OPeBuF37K9-p0X-16" edge="1" parent="PYW14DSKQrZKEMyBlCV2-5" source="foirv7OPeBuF37K9-p0X-6" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="foirv7OPeBuF37K9-p0X-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="foirv7OPeBuF37K9-p0X-17" connectable="0" parent="foirv7OPeBuF37K9-p0X-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="extends" vertex="1">
+          <mxGeometry relative="1" x="0.0434" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="foirv7OPeBuF37K9-p0X-14" edge="1" parent="PYW14DSKQrZKEMyBlCV2-5" source="foirv7OPeBuF37K9-p0X-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="foirv7OPeBuF37K9-p0X-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="foirv7OPeBuF37K9-p0X-15" connectable="0" parent="foirv7OPeBuF37K9-p0X-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="extends" vertex="1">
+          <mxGeometry relative="1" x="-0.0579" y="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ndMvrcjmyF_4ka__tk8o-22" parent="PYW14DSKQrZKEMyBlCV2-5" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;perimeterSpacing=0;arcSize=6;" value="&lt;b&gt;World object&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- aaa&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="580" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="ndMvrcjmyF_4ka__tk8o-23" edge="1" parent="PYW14DSKQrZKEMyBlCV2-5" source="ndMvrcjmyF_4ka__tk8o-22" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="foirv7OPeBuF37K9-p0X-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ndMvrcjmyF_4ka__tk8o-26" connectable="0" parent="ndMvrcjmyF_4ka__tk8o-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="extends" vertex="1">
+          <mxGeometry relative="1" x="-0.0232" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="foirv7OPeBuF37K9-p0X-26" parent="PYW14DSKQrZKEMyBlCV2-5" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;perimeterSpacing=0;arcSize=6;" value="&lt;b&gt;Camera&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- has the ability to track world entities - given by the track effect&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- has the ability to follow world entities - given by the follow effect&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- can mimic other cameras from other worlds with proportinal transform - to provide the ability of a 3d skybox - also given by n effect&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="600" x="789.99" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="foirv7OPeBuF37K9-p0X-27" edge="1" parent="PYW14DSKQrZKEMyBlCV2-5" source="foirv7OPeBuF37K9-p0X-26" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="foirv7OPeBuF37K9-p0X-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="foirv7OPeBuF37K9-p0X-28" connectable="0" parent="foirv7OPeBuF37K9-p0X-27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="extends" vertex="1">
+          <mxGeometry relative="1" x="0.0074" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ndMvrcjmyF_4ka__tk8o-24" parent="PYW14DSKQrZKEMyBlCV2-5" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;perimeterSpacing=0;arcSize=6;" value="&lt;b&gt;Sound&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- aaa&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1480" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="ndMvrcjmyF_4ka__tk8o-25" edge="1" parent="PYW14DSKQrZKEMyBlCV2-5" source="ndMvrcjmyF_4ka__tk8o-24" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="foirv7OPeBuF37K9-p0X-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ndMvrcjmyF_4ka__tk8o-27" connectable="0" parent="ndMvrcjmyF_4ka__tk8o-25" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="extends" vertex="1">
+          <mxGeometry relative="1" x="-0.3365" y="1" as="geometry">
+            <mxPoint x="-29" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PYW14DSKQrZKEMyBlCV2-3" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=60;" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Control plane&lt;/font&gt;" vertex="1">
+          <mxGeometry height="420" width="1660" x="-810" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="PYW14DSKQrZKEMyBlCV2-13" edge="1" parent="PYW14DSKQrZKEMyBlCV2-3" source="cy8uNCj1QMcz2DPNPbqN-1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PYW14DSKQrZKEMyBlCV2-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PYW14DSKQrZKEMyBlCV2-14" connectable="0" parent="PYW14DSKQrZKEMyBlCV2-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="contains" vertex="1">
+          <mxGeometry relative="1" x="-0.0821" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cy8uNCj1QMcz2DPNPbqN-1" parent="PYW14DSKQrZKEMyBlCV2-3" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;perimeterSpacing=0;arcSize=6;" value="&lt;b&gt;State&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- describes an engine state, which dictates which worlds are ticking and what viewports are rendered&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- the list of related worlds is configured at compile time by world name and compiled at startup&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- has a viewport&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="480" x="140" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="foirv7OPeBuF37K9-p0X-21" parent="PYW14DSKQrZKEMyBlCV2-3" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;perimeterSpacing=0;arcSize=6;" value="&lt;b&gt;Viewport&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- contains one or more windows&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- sets the rendering order of each window&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="200" x="1079.99" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="Stjk1n9K9bxV4Lo4QBKK-3" edge="1" parent="PYW14DSKQrZKEMyBlCV2-3" source="cy8uNCj1QMcz2DPNPbqN-1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="foirv7OPeBuF37K9-p0X-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="185" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Stjk1n9K9bxV4Lo4QBKK-4" connectable="0" parent="Stjk1n9K9bxV4Lo4QBKK-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="contains" vertex="1">
+          <mxGeometry relative="1" x="-0.042" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="foirv7OPeBuF37K9-p0X-23" parent="PYW14DSKQrZKEMyBlCV2-3" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;perimeterSpacing=0;arcSize=6;" value="&lt;b&gt;Window&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- describes rectangular boundarines for a camera&#39;s view to be rendered into&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- two or more windows may point to the same camera&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- windows may overlap&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- has an active camera that can be swapped for another active camera&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="350" x="1004.99" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="foirv7OPeBuF37K9-p0X-31" edge="1" parent="PYW14DSKQrZKEMyBlCV2-3" source="foirv7OPeBuF37K9-p0X-21" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="foirv7OPeBuF37K9-p0X-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="foirv7OPeBuF37K9-p0X-32" connectable="0" parent="foirv7OPeBuF37K9-p0X-31" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="contains set of" vertex="1">
           <mxGeometry relative="1" x="-0.075" y="2" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="2" y="-6" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="foirv7OPeBuF37K9-p0X-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;perimeterSpacing=0;arcSize=6;" value="&lt;b&gt;Viewport&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- contains one or more windows&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- sets the rendering order of each window&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="70" width="200" x="270" y="1360" as="geometry" />
+        <mxCell id="PYW14DSKQrZKEMyBlCV2-10" parent="PYW14DSKQrZKEMyBlCV2-3" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;perimeterSpacing=0;arcSize=6;" value="&lt;b&gt;State-accessible world references container&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- compiled at engine start based on the list of world names defined for the state&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- the engine iterates through the world references and ticks only the worlds related to the active state&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="460" x="150" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="PYW14DSKQrZKEMyBlCV2-2" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=60;" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Library&lt;/font&gt;" vertex="1">
+          <mxGeometry height="400" width="750" x="850" y="-980" as="geometry" />
+        </mxCell>
+        <mxCell id="ndMvrcjmyF_4ka__tk8o-4" parent="PYW14DSKQrZKEMyBlCV2-2" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;perimeterSpacing=0;arcSize=6;" value="&lt;b&gt;Effects library&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- contains all the effects&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- can be augmented with effects coming from external libraries&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- scans for all the effects and automatically adds them&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="320" x="250" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ndMvrcjmyF_4ka__tk8o-1" parent="PYW14DSKQrZKEMyBlCV2-2" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;perimeterSpacing=0;arcSize=6;" value="&lt;b&gt;Effect&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- provides the functionality to act upon one or more world entities&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- template for the effect instance&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="320" x="250" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="ndMvrcjmyF_4ka__tk8o-5" edge="1" parent="PYW14DSKQrZKEMyBlCV2-2" source="ndMvrcjmyF_4ka__tk8o-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ndMvrcjmyF_4ka__tk8o-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ndMvrcjmyF_4ka__tk8o-6" connectable="0" parent="ndMvrcjmyF_4ka__tk8o-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="contains" vertex="1">
+          <mxGeometry relative="1" x="0.056" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="foirv7OPeBuF37K9-p0X-29" edge="1" parent="1" source="foirv7OPeBuF37K9-p0X-23" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="foirv7OPeBuF37K9-p0X-26">
           <mxGeometry relative="1" as="geometry" />
@@ -102,116 +216,25 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="foirv7OPeBuF37K9-p0X-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;perimeterSpacing=0;arcSize=6;" value="&lt;b&gt;Window&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- describes rectangular boundarines for a camera&#39;s view to be rendered into&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- two or more windows may point to the same camera&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- windows may overlap&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="70" width="350" x="195.01" y="730" as="geometry" />
-        </mxCell>
-        <mxCell id="foirv7OPeBuF37K9-p0X-27" edge="1" parent="1" source="foirv7OPeBuF37K9-p0X-26" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="foirv7OPeBuF37K9-p0X-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="foirv7OPeBuF37K9-p0X-28" connectable="0" parent="foirv7OPeBuF37K9-p0X-27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="extends" vertex="1">
-          <mxGeometry relative="1" x="0.0074" y="-1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="foirv7OPeBuF37K9-p0X-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;perimeterSpacing=0;arcSize=6;" value="&lt;b&gt;Camera&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- has the ability to track world entities - given by the track effect&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- has the ability to follow world entities - given by the follow effect&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- can mimic other cameras from other worlds with proportinal transform - to provide the ability of a 3d skybox - also given by n effect&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="600" x="69.99" y="440" as="geometry" />
-        </mxCell>
         <mxCell id="ndMvrcjmyF_4ka__tk8o-2" edge="1" parent="1" source="mYHWRoHKPFk9zHoXxSIQ-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ndMvrcjmyF_4ka__tk8o-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ndMvrcjmyF_4ka__tk8o-3" connectable="0" parent="ndMvrcjmyF_4ka__tk8o-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="invokes&lt;div&gt;with&lt;/div&gt;&lt;div&gt;parameters&lt;/div&gt;&lt;div&gt;(byref)&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.1" y="-2" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-2" y="176" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mYHWRoHKPFk9zHoXxSIQ-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;perimeterSpacing=0;arcSize=6;" value="&lt;b&gt;Effect instance&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- acts upon one or more world entities&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="200" x="1160" y="50" as="geometry" />
-        </mxCell>
-        <mxCell id="ndMvrcjmyF_4ka__tk8o-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;perimeterSpacing=0;arcSize=6;" value="&lt;b&gt;Effect&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- provides the functionality to act upon one or more world entities&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="320" x="1100" y="-340" as="geometry" />
-        </mxCell>
-        <mxCell id="ndMvrcjmyF_4ka__tk8o-5" edge="1" parent="1" source="ndMvrcjmyF_4ka__tk8o-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ndMvrcjmyF_4ka__tk8o-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ndMvrcjmyF_4ka__tk8o-6" connectable="0" parent="ndMvrcjmyF_4ka__tk8o-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="contains" vertex="1">
-          <mxGeometry relative="1" x="0.056" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="PYW14DSKQrZKEMyBlCV2-15" edge="1" parent="1" source="PYW14DSKQrZKEMyBlCV2-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="foirv7OPeBuF37K9-p0X-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-570" y="55" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ndMvrcjmyF_4ka__tk8o-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;perimeterSpacing=0;arcSize=6;" value="&lt;b&gt;Effects library&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- contains all the effects&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- can be augmented with effects coming from external libraries&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- scans for all the effects and automatically adds them&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="320" x="1100" y="-520" as="geometry" />
-        </mxCell>
-        <mxCell id="ndMvrcjmyF_4ka__tk8o-14" edge="1" parent="1" source="ndMvrcjmyF_4ka__tk8o-7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ndMvrcjmyF_4ka__tk8o-11">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ndMvrcjmyF_4ka__tk8o-15" connectable="0" parent="ndMvrcjmyF_4ka__tk8o-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="is the same as" vertex="1">
-          <mxGeometry relative="1" x="-0.1099" y="2" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="PYW14DSKQrZKEMyBlCV2-16" connectable="0" parent="PYW14DSKQrZKEMyBlCV2-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="references one or more" vertex="1">
+          <mxGeometry relative="1" x="-0.7455" as="geometry">
+            <mxPoint y="198" as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="ndMvrcjmyF_4ka__tk8o-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;perimeterSpacing=0;arcSize=6;" value="&lt;b&gt;World effect instances manager&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- contains effects instances&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- can add and remove effect instances&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- logic loop loops through the effects and applies them&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="70" width="280" x="680" y="35" as="geometry" />
-        </mxCell>
-        <mxCell id="ndMvrcjmyF_4ka__tk8o-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;perimeterSpacing=0;arcSize=6;" value="&lt;b&gt;World entity effect instances manager&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- contains effects instances&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- can add and remove effect instances&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- logic loop loops through the effects and applies them&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="70" width="280" x="680" y="250" as="geometry" />
-        </mxCell>
-        <mxCell id="ndMvrcjmyF_4ka__tk8o-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;perimeterSpacing=0;arcSize=6;" value="&lt;b&gt;World entities manager&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- contians world entities&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- logic loop loops through the entities and ticks them&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="250" x="245.01" y="140" as="geometry" />
-        </mxCell>
-        <mxCell id="ndMvrcjmyF_4ka__tk8o-20" edge="1" parent="1" source="ndMvrcjmyF_4ka__tk8o-19" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="foirv7OPeBuF37K9-p0X-11">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ndMvrcjmyF_4ka__tk8o-21" connectable="0" parent="ndMvrcjmyF_4ka__tk8o-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="contains set of" vertex="1">
-          <mxGeometry relative="1" x="-0.052" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ndMvrcjmyF_4ka__tk8o-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;perimeterSpacing=0;arcSize=6;" value="&lt;b&gt;Universe&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- contains 2D and 3D worlds&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="45" width="159.99" x="290" y="-520" as="geometry" />
-        </mxCell>
-        <mxCell id="ndMvrcjmyF_4ka__tk8o-23" edge="1" parent="1" source="ndMvrcjmyF_4ka__tk8o-22" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="foirv7OPeBuF37K9-p0X-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ndMvrcjmyF_4ka__tk8o-26" connectable="0" parent="ndMvrcjmyF_4ka__tk8o-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="extends" vertex="1">
-          <mxGeometry relative="1" x="-0.0232" y="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ndMvrcjmyF_4ka__tk8o-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;perimeterSpacing=0;arcSize=6;" value="&lt;b&gt;World object&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- aaa&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="-140" y="440" as="geometry" />
-        </mxCell>
-        <mxCell id="ndMvrcjmyF_4ka__tk8o-25" edge="1" parent="1" source="ndMvrcjmyF_4ka__tk8o-24" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="foirv7OPeBuF37K9-p0X-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ndMvrcjmyF_4ka__tk8o-27" connectable="0" parent="ndMvrcjmyF_4ka__tk8o-25" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="extends" vertex="1">
-          <mxGeometry relative="1" x="-0.3365" y="1" as="geometry">
-            <mxPoint x="-29" y="-15" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ndMvrcjmyF_4ka__tk8o-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;perimeterSpacing=0;arcSize=6;" value="&lt;b&gt;Sound&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- aaa&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="760" y="440" as="geometry" />
-        </mxCell>
-        <mxCell id="Stjk1n9K9bxV4Lo4QBKK-3" edge="1" parent="1" source="cy8uNCj1QMcz2DPNPbqN-1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Stjk1n9K9bxV4Lo4QBKK-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Stjk1n9K9bxV4Lo4QBKK-4" connectable="0" parent="Stjk1n9K9bxV4Lo4QBKK-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="contains" vertex="1">
-          <mxGeometry relative="1" x="-0.042" y="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="cy8uNCj1QMcz2DPNPbqN-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;perimeterSpacing=0;arcSize=6;" value="&lt;b&gt;State&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- describes an engine state, which dictates which worlds are ticking and what viewports are rendered&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- has access to worlds&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- has access to viewports&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="90" width="480" x="-800" y="1350" as="geometry" />
-        </mxCell>
-        <mxCell id="Stjk1n9K9bxV4Lo4QBKK-5" edge="1" parent="1" source="Stjk1n9K9bxV4Lo4QBKK-1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="foirv7OPeBuF37K9-p0X-21">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Stjk1n9K9bxV4Lo4QBKK-6" connectable="0" parent="Stjk1n9K9bxV4Lo4QBKK-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="contains set of" vertex="1">
-          <mxGeometry relative="1" x="-0.1719" as="geometry">
-            <mxPoint x="8" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Stjk1n9K9bxV4Lo4QBKK-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;perimeterSpacing=0;arcSize=6;" value="&lt;b&gt;Viewports manager&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- contains viewports&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- has an active viewport&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="70" width="200" x="-200" y="1360" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
