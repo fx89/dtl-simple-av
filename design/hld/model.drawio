@@ -1,10 +1,10 @@
 <mxfile host="Electron">
   <diagram name="Page-1" id="A6uBjO4wK6vIvszS2Rl9">
-    <mxGraphModel dx="2321" dy="2129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3793" dy="2883" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="PYW14DSKQrZKEMyBlCV2-5" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=60;" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Environment&lt;/font&gt;" vertex="1">
+        <mxCell id="PYW14DSKQrZKEMyBlCV2-5" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=60;align=left;spacingLeft=5;" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Environment&lt;/font&gt;" vertex="1">
           <mxGeometry height="1020" width="2310" x="-720" y="-340" as="geometry" />
         </mxCell>
         <mxCell id="ndMvrcjmyF_4ka__tk8o-19" parent="PYW14DSKQrZKEMyBlCV2-5" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;perimeterSpacing=0;arcSize=6;" value="&lt;b&gt;Universe&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- contains 2D and 3D worlds&lt;/font&gt;&lt;/div&gt;" vertex="1">
@@ -139,7 +139,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ndMvrcjmyF_4ka__tk8o-24" parent="PYW14DSKQrZKEMyBlCV2-5" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;perimeterSpacing=0;arcSize=6;" value="&lt;b&gt;Sound&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- aaa&lt;/font&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="ndMvrcjmyF_4ka__tk8o-24" parent="PYW14DSKQrZKEMyBlCV2-5" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;perimeterSpacing=0;arcSize=6;" value="&lt;b&gt;Sound object&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- aaa&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="1480" y="820" as="geometry" />
         </mxCell>
         <mxCell id="ndMvrcjmyF_4ka__tk8o-25" edge="1" parent="PYW14DSKQrZKEMyBlCV2-5" source="ndMvrcjmyF_4ka__tk8o-24" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="foirv7OPeBuF37K9-p0X-6">
@@ -150,8 +150,8 @@
             <mxPoint x="-29" y="-15" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PYW14DSKQrZKEMyBlCV2-3" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=60;" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Control plane&lt;/font&gt;" vertex="1">
-          <mxGeometry height="420" width="1660" x="-810" y="900" as="geometry" />
+        <mxCell id="PYW14DSKQrZKEMyBlCV2-3" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=60;align=left;spacingLeft=5;" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Control plane&lt;/font&gt;" vertex="1">
+          <mxGeometry height="420" width="1450" x="-810" y="900" as="geometry" />
         </mxCell>
         <mxCell id="PYW14DSKQrZKEMyBlCV2-13" edge="1" parent="PYW14DSKQrZKEMyBlCV2-3" source="cy8uNCj1QMcz2DPNPbqN-1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PYW14DSKQrZKEMyBlCV2-10">
           <mxGeometry relative="1" as="geometry" />
@@ -191,7 +191,7 @@
         <mxCell id="PYW14DSKQrZKEMyBlCV2-10" parent="PYW14DSKQrZKEMyBlCV2-3" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;perimeterSpacing=0;arcSize=6;" value="&lt;b&gt;State-accessible world references container&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- compiled at engine start based on the list of world names defined for the state&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- the engine iterates through the world references and ticks only the worlds related to the active state&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="460" x="150" y="150" as="geometry" />
         </mxCell>
-        <mxCell id="PYW14DSKQrZKEMyBlCV2-2" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=60;" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Library&lt;/font&gt;" vertex="1">
+        <mxCell id="PYW14DSKQrZKEMyBlCV2-2" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=60;align=left;spacingTop=0;spacingLeft=5;" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Library&lt;/font&gt;" vertex="1">
           <mxGeometry height="400" width="750" x="850" y="-980" as="geometry" />
         </mxCell>
         <mxCell id="ndMvrcjmyF_4ka__tk8o-4" parent="PYW14DSKQrZKEMyBlCV2-2" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;perimeterSpacing=0;arcSize=6;" value="&lt;b&gt;Effects library&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- contains all the effects&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- can be augmented with effects coming from external libraries&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- scans for all the effects and automatically adds them&lt;/font&gt;&lt;/div&gt;" vertex="1">
@@ -235,6 +235,23 @@
           <mxGeometry relative="1" x="-0.7455" as="geometry">
             <mxPoint y="198" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="xQ6qSEFsTw93spnISO1L-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=60;align=left;spacingTop=0;spacingLeft=5;" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Library&lt;/font&gt;" vertex="1">
+          <mxGeometry height="420" width="870" x="720" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="xQ6qSEFsTw93spnISO1L-9" edge="1" parent="xQ6qSEFsTw93spnISO1L-1" source="xQ6qSEFsTw93spnISO1L-7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="xQ6qSEFsTw93spnISO1L-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xQ6qSEFsTw93spnISO1L-10" connectable="0" parent="xQ6qSEFsTw93spnISO1L-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="contains set of" vertex="1">
+          <mxGeometry relative="1" x="0.1664" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xQ6qSEFsTw93spnISO1L-7" parent="xQ6qSEFsTw93spnISO1L-1" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;perimeterSpacing=0;arcSize=6;" value="&lt;b&gt;Sound library&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- holds sounds mapped by unique name&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="200" x="620" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="xQ6qSEFsTw93spnISO1L-8" parent="xQ6qSEFsTw93spnISO1L-1" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;perimeterSpacing=0;arcSize=6;" value="&lt;b&gt;Sound&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- defines a sound resource&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- has a resource type&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;- has a resource id/path/value&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;- can be played once&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;- can be looped&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;- can be mono or stereo/3d&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;- can have volume&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="154" x="643" y="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
